@@ -1,0 +1,115 @@
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    background: url("/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: sans-serif;
+    
+}
+.paragraph{
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+    color: rgb(105, 110, 114);
+}
+
+.container{
+    
+    background: rgb(255, 255, 255);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    align-items: center;
+    border-radius: 20px;
+    width:100%;
+    max-width:350px;
+    box-shadow: 0 2px 20px rgb(193, 198, 245);
+
+}
+
+.txt{
+    color: rgb(105, 110, 114);
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+}
+
+
+h2{
+    margin-top: 4px;
+    font-weight: 700;
+    
+}
+
+
+
+.bottom{
+    padding: 30px;
+    text-align: center;
+}
+
+.container .image-top{
+    border-radius: 20px 20px 0px 0px;
+    width:100%;
+    max-width:350px;
+}
+
+.annual-plan{
+    display: flex;
+    padding: 3px 20px;
+    background-color: rgba(192, 198, 255, 0.199);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan{
+    margin-right: 10px;
+    margin-bottom: -10px;
+    line-height: 1.5rem;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+
+}
+
+.btn{
+    padding: 10px  80px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(228, 45%, 44%);
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 5px 10px rgb(193, 198, 245);
+}
+
+.btn:hover{
+    background-color: rgba(30, 51, 241, 0.555);
+    transition: all 33ms ease-in;
+    transform: scale(1.1);
+}
+ 
+.price{
+    margin-right: 10px;
+    color: rgb(135, 143, 150);
+    font-weight: 500;
+}
+
+.change{
+    cursor: pointer; 
+}
+
+
+.change:hover{
+    color: hsl(228, 45%, 44%);
+    
+}
+
+.cancel-order{
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
